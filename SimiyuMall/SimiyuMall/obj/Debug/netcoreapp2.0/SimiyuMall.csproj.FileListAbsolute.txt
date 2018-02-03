@@ -1,0 +1,11 @@
+C:\AngularRepositories\Angular_5_ASP_NET_Core_Shopping_Web_App\SimiyuMall\SimiyuMall\bin\Debug\netcoreapp2.0\SimiyuMall.deps.json
+C:\AngularRepositories\Angular_5_ASP_NET_Core_Shopping_Web_App\SimiyuMall\SimiyuMall\bin\Debug\netcoreapp2.0\SimiyuMall.runtimeconfig.json
+C:\AngularRepositories\Angular_5_ASP_NET_Core_Shopping_Web_App\SimiyuMall\SimiyuMall\bin\Debug\netcoreapp2.0\SimiyuMall.runtimeconfig.dev.json
+C:\AngularRepositories\Angular_5_ASP_NET_Core_Shopping_Web_App\SimiyuMall\SimiyuMall\bin\Debug\netcoreapp2.0\SimiyuMall.dll
+C:\AngularRepositories\Angular_5_ASP_NET_Core_Shopping_Web_App\SimiyuMall\SimiyuMall\bin\Debug\netcoreapp2.0\SimiyuMall.pdb
+C:\AngularRepositories\Angular_5_ASP_NET_Core_Shopping_Web_App\SimiyuMall\SimiyuMall\obj\Debug\netcoreapp2.0\SimiyuMall.csprojResolveAssemblyReference.cache
+C:\AngularRepositories\Angular_5_ASP_NET_Core_Shopping_Web_App\SimiyuMall\SimiyuMall\obj\Debug\netcoreapp2.0\SimiyuMall.csproj.CoreCompileInputs.cache
+C:\AngularRepositories\Angular_5_ASP_NET_Core_Shopping_Web_App\SimiyuMall\SimiyuMall\obj\Debug\netcoreapp2.0\SimiyuMall.AssemblyInfoInputs.cache
+C:\AngularRepositories\Angular_5_ASP_NET_Core_Shopping_Web_App\SimiyuMall\SimiyuMall\obj\Debug\netcoreapp2.0\SimiyuMall.AssemblyInfo.cs
+C:\AngularRepositories\Angular_5_ASP_NET_Core_Shopping_Web_App\SimiyuMall\SimiyuMall\obj\Debug\netcoreapp2.0\SimiyuMall.dll
+C:\AngularRepositories\Angular_5_ASP_NET_Core_Shopping_Web_App\SimiyuMall\SimiyuMall\obj\Debug\netcoreapp2.0\SimiyuMall.pdb
