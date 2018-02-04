@@ -24,7 +24,15 @@ div.items img {
     background-color: thistle
 }
 
-#contactForm input[type=submit] {
-    background-color: forestgreen;
-    color: white;
+    #contactForm input[type=submit] {
+      background-color: forestgreen;
+      color: white;
+    }
+ul.items {
+    font-size: small;
 }
+    ul.items li {
+        list-style-type: none;
+    }
+
+
