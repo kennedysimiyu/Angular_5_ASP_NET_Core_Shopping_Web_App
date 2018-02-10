@@ -7,16 +7,38 @@ var s = "";
 console.log("Hello Customer");
 
 // variable storing a functionality for hidding the contactForm
-var contactForm = document.getElementById("contactForm");
-    contactForm.hidden = true;
+/*var contactForm = document.getElementById("contactForm");
+      contactForm.hidden = true;
+*/
 
-    // variable with a functionality to show on the logs that the buy item button has been clicked.
-    var button = document.getElementById("buyButton");
+//jQuery implementation 'variable storing a functionality for hidding the contactForm'
+var contactForm = $("#contactForm");
+    contactForm.hide();
 
-    button.addEventListener("click", function () {
-    console.log("Buying Item")
-    });
+    
+//jQuery implementation variable with a functionality to show on the logs that the buy item button has been clicked.
+ var button = $("#buyButton");
+
+     button.on("click", function () {
+            console.log("Buying Item")
+     });
+
+
+// variable with a functionality to show on the logs that the buy item button has been clicked.
+/*var button = document.getElementById("buyButton");
+
+      button.addEventListener("click", function () {
+             console.log("Buying Item")
+      });
+ */
 
 // product info functionalities.
-var productInfo = document.getElementsByClassName(items - props);
-var listItems = productInfo.item[0].children;
+/*var productInfo = document.getElementsByClassName(items - props);
+  var listItems = productInfo.item[0].children;
+  var listItems = productInfo.item[0].children;
+*/
+// product info functionalities jQuery implementation
+ var productInfo = $(".product-props li");
+     productInfo.on("click", function () {
+         console.log("You clicked on" + $(this).text());
+     });

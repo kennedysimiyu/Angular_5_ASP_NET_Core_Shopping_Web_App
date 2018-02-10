@@ -27,19 +27,19 @@ div.items-info img {
     background-color: thistle
 }
 
-      /* contact form submit button style properties*/   
-      #contactForm input[type=submit] {
+    /* contact form submit button style properties*/   
+    #contactForm input[type=submit] {
       background-color: forestgreen;
       color: white;
     }
 /* item properties styling*/
-ul.items props {
+ul.product-props {
     font-size: small;
 }
-    ul.items props li {
-        list-style-type: none;
+ ul.product-props li {
+    list-style-type: none;
     }
-.items-info {
+.product-info {
     border: 1px solid grey;
     display: inline-block;
     padding: 8px 3px;
@@ -48,7 +48,7 @@ ul.items props {
     border-radius: 5px;
 }
       /* item images styling*/
-      .items-info img {
+    .product-info img {
         margin: 3px;
         float: left;
         max-width: 300px;
