@@ -30,10 +30,10 @@ div.items-info img {
       background-color: forestgreen;
       color: white;
     }
-ul.items {
+ul.items props {
     font-size: small;
 }
-    ul.items li {
+    ul.items props li {
         list-style-type: none;
     }
 .items-info {
