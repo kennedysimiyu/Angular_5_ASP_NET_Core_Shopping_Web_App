@@ -22,14 +22,17 @@ div.items-info img {
 }
 */
 
+/* back ground color for our contact form*/
 #contactForm {
     background-color: thistle
 }
 
-    #contactForm input[type=submit] {
+      /* contact form submit button style properties*/   
+      #contactForm input[type=submit] {
       background-color: forestgreen;
       color: white;
     }
+/* item properties styling*/
 ul.items props {
     font-size: small;
 }
@@ -44,7 +47,8 @@ ul.items props {
     width: 450px;
     border-radius: 5px;
 }
-    .items-info img {
+      /* item images styling*/
+      .items-info img {
         margin: 3px;
         float: left;
         max-width: 300px;
