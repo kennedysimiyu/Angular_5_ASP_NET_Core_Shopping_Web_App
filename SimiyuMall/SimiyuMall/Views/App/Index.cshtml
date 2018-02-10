@@ -1,0 +1,66 @@
+﻿<!-- razor view block of code with Tiyle -->
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Simiyu Mall: @ViewBag.Title</title>
+
+    <!-- application external style sheet loadings-->
+    <link href="~/css/Images.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h2>@ViewBag.Title</h2>
+
+    <!-- single item properties-->
+    <div class="product-info">
+        <img src="~/images/Hp_Omen.jpg" />
+        <h3>Hp Omen</h3>
+        <ul class="product-props">
+            <li>Price: $9.99</li>
+            <li>Model: Gaming Laptop</li>
+            <li>Ram: 4GB</li>
+            <li>Hard Disk: 1TB</li>
+        </ul>
+        <!-- items buying button-->
+        <button id="buyButton">Buy</button>
+    </div>
+
+    <!-- applications contact form-->
+    <div id="contactForm">
+        <form>
+            <label>Your Name:</label>
+            <br />
+            <input />
+            <br />
+            <label>Email:</label>
+            <br />
+            <input type="email" />
+            <br />
+            <label>Subject</label>
+            <br />
+            <input type="text" />
+            <br />
+            <label>Message:</label>
+            <br />
+            <textarea rows="4"></textarea>
+            <br />
+            <!-- contact form submit button-->
+            <input type="submit" value="Send Message" />
+        </form>
+    </div>
+
+    <!-- third party javascript libraries-->
+    <script src="~/lib/jQuery/dist/jquery.min.js"></script>
+
+    <!-- external javascript file loading-->
+    <script src="~/js/index.js"></script>
+
+</body>
+</html>
+
