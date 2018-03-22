@@ -12545,11 +12545,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\AngularRepositories\\Angular_5_ASP_NET_Core_Shopping_Web_App\\SimiyuMall\\SimiyuMall\\SimiyuMall.csproj",
+      "projectUniqueName": "C:\\angular_Repositories\\Angular_5_ASP_NET_Core_Shopping_Web_App\\SimiyuMall\\SimiyuMall\\SimiyuMall.csproj",
       "projectName": "SimiyuMall",
-      "projectPath": "C:\\AngularRepositories\\Angular_5_ASP_NET_Core_Shopping_Web_App\\SimiyuMall\\SimiyuMall\\SimiyuMall.csproj",
+      "projectPath": "C:\\angular_Repositories\\Angular_5_ASP_NET_Core_Shopping_Web_App\\SimiyuMall\\SimiyuMall\\SimiyuMall.csproj",
       "packagesPath": "C:\\Users\\kensi\\.nuget\\packages\\",
-      "outputPath": "C:\\AngularRepositories\\Angular_5_ASP_NET_Core_Shopping_Web_App\\SimiyuMall\\SimiyuMall\\obj\\",
+      "outputPath": "C:\\angular_Repositories\\Angular_5_ASP_NET_Core_Shopping_Web_App\\SimiyuMall\\SimiyuMall\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

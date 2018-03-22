@@ -54,4 +54,18 @@ ul.product-props {
         max-width: 300px;
     }
 
+/* styling our menu list*/
+menu>ul>li{
+    display: inline;
+}
+
+/* adding pipes on menu */
+ menu li::after {
+     content: ' |';
+ }
+ menu li:last-of-type::after {
+     content: "";
+ }
+
+
 
