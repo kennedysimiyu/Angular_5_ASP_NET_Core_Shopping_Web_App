@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using SimiyuMall.Services;
 
 namespace SimiyuMall
 {
@@ -15,6 +16,9 @@ namespace SimiyuMall
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<IMailService, NullMailService>();
+
+        // support for real mail service
 
             services.AddMvc();
         }
@@ -26,6 +30,13 @@ namespace SimiyuMall
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+            }
+
+
+            // production environment setup display for errors.
+            else
+            {
+                app.UseExceptionHandler("/error");
             }
             
             

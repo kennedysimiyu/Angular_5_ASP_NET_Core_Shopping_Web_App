@@ -5,34 +5,52 @@
     <title>Simiyu Mall: @ViewBag.Title</title>
 
     <!-- application external style sheet loadings-->
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="~/css/Images.css" rel="stylesheet" />
 </head>
 
 <body>
-    <header>
-        <h1>Shop till you hop with Simiyu Mall Vouchers</h1>
-        <menu>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/app/contact">Contact</a></li>
-                <li><a href="/app/about">About</a></li>
-            </ul>
-        </menu>
-    </header>
-    <section>
-        <h2>@ViewBag.Title</h2>
+    <div class="navbar navbar-inverse">
+        <header class="container">
+            <div class="navbar-header">
+                <div class="navbar-brand">Simiyu Mall</div>
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">&#9776;</button>
+            </div>
+            <div id="menu" class="collapse navbar-collapse">
+                <ul class="nav navbar nav">
+                    <!-- tag helpers make our link strong, better to use than using the normal link routes with backslash-->
+                    <!-- <li><a href="/">Home</a></li>
+        <li><a href="/app/contact">Contact</a></li>
+        <li><a href="/app/about">About</a></li> -->
+
+                    <li><a asp-controller="App" asp-action="Index">Home</a></li>
+                    <li><a asp-controller="App" asp-action="Contact">Contact</a></li>
+                    <li><a asp-controller="App" asp-action="About">About</a></li>
+
+                </ul>
+            </div>
+        </header>
+    </div>
+    <section class="container">
+        <h2 class="text-center">@ViewBag.Title</h2>
         @RenderBody()
     </section>
 
-    <footer>
-        Copyright 2018 Simiyu Mall Code
+    <footer class="container">
+        <div class="text-center">Copyright 2018 Simiyu Mall Code</div>
     </footer>
 
     <!-- third party javascript libraries-->
-    <script src="~/lib/jQuery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <!-- external javascript file loading-->
     <script src="~/js/index.js"></script>
+
+    <!-- cntroll the loading of only necessary files needed-->
+    @RenderSection("Scripts", false)
+
+
 
 </body>
 </html>

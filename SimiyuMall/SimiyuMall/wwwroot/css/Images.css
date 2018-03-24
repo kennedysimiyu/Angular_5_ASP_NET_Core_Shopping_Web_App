@@ -15,24 +15,24 @@ label {
     font-size: 16px;
 }
 
-/*
+
 div.items-info img {
     width: 10%;
     height: auto;
 }
-*/
 
-/* back ground color for our contact form*/
+
+/* back ground color for our contact form
 #contactForm {
     background-color: thistle
 }
 
-    /* contact form submit button style properties*/   
+    /* contact form submit button style properties  
     #contactForm input[type=submit] {
       background-color: forestgreen;
       color: white;
     }
-/* item properties styling*/
+/* item properties styling */
 ul.product-props {
     font-size: small;
 }
@@ -42,8 +42,8 @@ ul.product-props {
 .product-info {
     border: 1px solid grey;
     display: inline-block;
-    padding: 8px 3px;
-    margin: 3px;
+    padding: 8px 2px;
+    margin: 2px;
     width: 450px;
     border-radius: 5px;
 }
@@ -54,7 +54,7 @@ ul.product-props {
         max-width: 300px;
     }
 
-/* styling our menu list*/
+/* styling our menu list */
 menu>ul>li{
     display: inline;
 }
@@ -66,6 +66,6 @@ menu>ul>li{
  menu li:last-of-type::after {
      content: "";
  }
-
+  
 
 
