@@ -7,48 +7,312 @@
     <!-- application external style sheet loadings-->
     <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="~/css/Images.css" rel="stylesheet" />
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div class="navbar navbar-inverse">
-        <header class="container">
-            <div class="navbar-header">
-                <div class="navbar-brand">Simiyu Mall</div>
-                <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">&#9776;</button>
+    <header class="Header">
+        <div class="_Header1">
+            <div class="_Header2">
+                <div class="_Header3">
+                    <div class="row">
+                        <a asp-controller="App" asp-action="Index">
+                            <img width="110" src="~/images/logo.png" alt="Simiyu Mall"
+                                 title="Simiyu Mall">
+                        </a>
+
+                        <div class="_Header5">
+                            <form class="_1WMLwI header-form-search" action="/search" method="GET">
+                                <div class="row">
+                                    <div class="col-11-12">
+                                        <div class="HeaderFormInput">
+                                            <input type="text" value="" class="_HeaderFormInput-search-bar" title="Search for products, brands and more"
+                                                   name="q" autocomplete="off" placeholder="Search for products, brands and more">
+                                        </div>
+                                    </div>
+                                    <div class="col-1-12">
+                                        <button class="Button1" type="submit">
+                                            <svg width="20px" height="20px" viewBox="0 0 17 18" class="" xmlns="http://www.w3.org/2000/svg">
+                                                <g fill="#2874F1" fill-rule="evenodd">
+                                                    <path class="_2BhAHa" d="m11.618 9.897l4.225 4.212c.092.092.101.232.02.313l-1.465 1.46c-.081.081-.221.072-.314-.02l-4.216-4.203"></path>
+                                                    <path class="_2BhAHa" d="m6.486 10.901c-2.42 0-4.381-1.956-4.381-4.368 0-2.413 1.961-4.369 4.381-4.369 2.42 0 4.381 1.956 4.381 4.369 0 2.413-1.961 4.368-4.381 4.368m0-10.835c-3.582 0-6.486 2.895-6.486 6.467 0 3.572 2.904 6.467 6.486 6.467 3.582 0 6.486-2.895 6.486-6.467 0-3.572-2.904-6.467-6.486-6.467"></path>
+                                                </g>
+                                            </svg>
+                                        </button>
+                                    </div>
+
+                                </div>
+
+                            </form>
+                        </div>
+                        <div class="AppBar">
+                            <div class="_BarItems">
+                                <a asp-controller="App" asp-action="Login">Login &amp; Signup</a>
+                            </div>
+                            <div class="_BarItems">
+
+                                <a asp-controller="App" asp-action="About">About</a>
+                            </div>
+                            <div class="_BarItems">
+                                <div class="_20yN1P qt4LQw">
+
+                                    <a asp-controller="App" asp-action="Contact">Contact</a>
+                                </div>
+                                <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_3eosFR">
+                                    <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff"
+                                          class="_2GxHSA"></path>
+                                </svg>
+                            </div>
+                            <a class="_3NFO0d _BarItems" href="/viewcart?otracker=Cart_Icon_Click">
+                                <svg class="_1-mlum" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="" d="M15.32 2.405H4.887C3 2.405 2.46.805 2.46.805L2.257.21C2.208.085 2.083 0 1.946 0H.336C.1 0-.064.24.024.46l.644 1.945L3.11 9.767c.047.137.175.23.32.23h8.418l-.493 1.958H3.768l.002.003c-.017 0-.033-.003-.05-.003-1.06 0-1.92.86-1.92 1.92s.86 1.92 1.92 1.92c.99 0 1.805-.75 1.91-1.712l5.55.076c.12.922.91 1.636 1.867 1.636 1.04 0 1.885-.844 1.885-1.885 0-.866-.584-1.593-1.38-1.814l2.423-8.832c.12-.433-.206-.86-.655-.86"
+                                          fill="#fff"></path>
+                                </svg>
+                                <span class="Cart">Cart</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div id="menu" class="collapse navbar-collapse">
-                <ul class="nav navbar nav">
-                    <!-- tag helpers make our link strong, better to use than using the normal link routes with backslash-->
-                    <!-- <li><a href="/">Home</a></li>
-        <li><a href="/app/contact">Contact</a></li>
-        <li><a href="/app/about">About</a></li> -->
+        </div>
 
-                    <li><a asp-controller="App" asp-action="Index">Home</a></li>
-                    <li><a asp-controller="App" asp-action="Contact">Contact</a></li>
-                    <li><a asp-controller="App" asp-action="About">About</a></li>
 
+        <div class="Items1">
+            <div class="_Items1-2">
+                <ul class="_Items1-2A">
+                    <li class="_Items-List">
+                        <a href="javascript:;" title="Electronics" class="_Items-List-Links">
+                            <span class="">Electronics</span>
+                            <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg"
+                                 class="_3ynUUz">
+                                <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_3Der3h"></path>
+                            </svg>
+                        </a>
+
+                    </li>
+                    <li class="_Items-List">
+                        <a href="javascript:;" title="TVs &amp; Appliances" class="_Items-List-Links">
+                            <span class="">TVs &amp; Appliances</span>
+                            <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg"
+                                 class="_3ynUUz">
+                                <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_3Der3h"></path>
+                            </svg>
+                        </a>
+
+                    </li>
+
+                    <li class="_Items-List">
+                        <a href="javascript:;" title="Women" class="_Items-List-Links">
+                            <span class="">Women</span>
+                            <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg"
+                                 class="_3ynUUz">
+                                <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_3Der3h"></path>
+                            </svg>
+                        </a>
+
+                    </li>
+                    <li class="_Items-List">
+                        <a href="javascript:;" title="Baby &amp; Kids" class="_Items-List-Links">
+                            <span class="">Baby &amp; Kids</span>
+                            <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg"
+                                 class="_3ynUUz">
+                                <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_3Der3h"></path>
+                            </svg>
+                        </a>
+
+                    </li>
+                    <li class="_Items-List">
+                        <a href="javascript:;" title="Home &amp; Furniture" class="_Items-List-Links">
+                            <span class="">Home &amp; Furniture</span>
+                            <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg"
+                                 class="_3ynUUz">
+                                <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_3Der3h"></path>
+                            </svg>
+                        </a>
+
+                    </li>
+
+                    <li class="_Items-List">
+                        <a href="javascript:;" title="Sports, Books &amp; More" class="_Items-List-Links">
+                            <span class="">Sports, Books &amp; More</span>
+                            <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg"
+                                 class="_3ynUUz">
+                                <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_3Der3h"></path>
+                            </svg>
+                        </a>
+
+                    </li>
+                    <li class="_Items-List">
+                        <a class="_Items-List-Links" href="/">
+                            <span class="_25Wjx4">Offer Zone</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
-        </header>
-    </div>
-    <section class="container">
-        <h2 class="text-center">@ViewBag.Title</h2>
-        @RenderBody()
-    </section>
+        </div>
+    </header>
 
-    <footer class="container">
-        <div class="text-center">Copyright 2018 Simiyu Mall Code</div>
+    <div class="product-body">
+
+        <section class="container">
+            <h2 class="text-center">@ViewBag.Title</h2>
+            @RenderBody()
+        </section>
+
+      
+
+        <!-- third party javascript libraries-->
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- external javascript file loading-->
+        <script src="~/js/index.js"></script>
+
+        <!-- cntroll the loading of only necessary files needed-->
+        @RenderSection("Scripts", false)
+
+
+    </div>
+
+    <footer class="Footer">
+        <div class="_footer-1">
+            <div>
+                <div class="row">
+                    <div class="_3qd5C5 col col-4-12">
+                        <div class="_footer-help">
+                            <div class="_footer-item-name">HELP</div>
+                            <a href="/pages/payments" class="_footer-item-links">Payments</a>
+                            <a href="/pages/shipping" class="_footer-item-links">Shipping</a>
+                            <a href="/" class="_footer-item-links">Cancellation &amp; Returns</a>
+                            <a href="/"
+                               class="_footer-item-links">FAQ</a>
+                            <a href="/" class="_footer-item-links">Report Infringement</a>
+                        </div>
+                    </div>
+
+                    <div class="_3qd5C5 col col-4-12">
+                        <div class="_footer-simiyu-mall">
+                            <div class="_footer-item-name">Simiyu Mall</div>
+                            <a href="/" class="_footer-item-links">Contact Us</a>
+                            <a href="/" class="_footer-item-links">About Us</a>
+                            <a href="/"
+                               class="_footer-item-links">Careers</a>
+                            <a href="/" class="_footer-item-links">Simiyu Mall Stories</a>
+                            <a href="/" class="_footer-item-links">Press</a>
+                            <a href="/"
+                               class="_footer-item-links">Sell on Simiyu Mall</a>
+                        </div>
+                    </div>
+
+                    <div class="_3qd5C5 col col-4-12">
+                        <div class="_footer-misc">
+                            <div class="_footer-item-name">MISC</div>
+                            <a href="" class="_footer-item-links">Online Shopping</a>
+                            <a href=""
+                               class="_footer-item-links">Affiliate Program</a>
+                            <a href="/" class="_footer-item-links">Gift Card</a>
+                            <a href="/" class="_footer-item-links">Flipkart First Subscription</a>
+                            <a href="/" class="_footer-item-links">Sitemap</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col gu12">
+                        <div class="_2pd5wH">
+                            <div class="row">
+                                <div class="_12Pt90 col col-4-12">
+                                    <div>
+                                        <i class="_19jTLO _2FH1aM"></i>
+                                        <div class="gLnKnX">
+                                            <div>Track your</div>
+                                            <div>order</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="_3lrtQ_ col col-4-12">
+                                    <i class="fC1vcP _2FH1aM"></i>
+                                    <div class="gLnKnX">
+                                        <div>Free &amp; easy</div>
+                                        <div> returns</div>
+                                    </div>
+                                </div>
+                                <div class="_2NvQ_q col col-4-12">
+                                    <i class="_2XOI3b _2FH1aM"></i>
+                                    <div class="gLnKnX">
+                                        <div>Online</div>
+                                        <div> cancellations</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="_1DXv5h col col-8-12">
+                        <span>
+                            <span class="policies-title footertitle">Policies:</span>
+                            <a class="_3llQHu" href="/" target="_blank" rel="noopener noreferrer">Returns Policy</a>
+                            <a class="_3llQHu" href="/" target="_blank" rel="noopener noreferrer">Terms of use</a>
+                            <a class="_3llQHu" href="/" target="_blank" rel="noopener noreferrer">Security</a>
+                            <a class="_3llQHu" href="/" target="_blank" rel="noopener noreferrer">Privacy</a>
+                            <a class="_3llQHu" href="/" target="_blank" rel="noopener noreferrer">Infringement</a>
+                        </span>
+                        <span class="_2tFDQF">
+                            © 2007-
+                            <!-- -->2018
+                            <!-- -->
+                            <span>kennedysimiyu.com.</span>
+                        </span>
+                    </div>
+                    <div class="_1DXv5h _2uGUAL col col-4-12">
+                        <span>Keep in touch</span>
+                        <a class="_3BNkWJ _2EqWRh" target="_blank" rel="noopener noreferrer" href="/"></a>
+                        <a class="_1gaRkv _2EqWRh" target="_blank" rel="noopener noreferrer" href="/"></a>
+                        <a class="_1dlzPn _2EqWRh" target="_blank" rel="noopener noreferrer" href="/"></a>
+                        <a class="_2GU83R _2EqWRh" target="_blank" rel="noopener noreferrer" href="/"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col gu12 gY-jFd">
+                    <div class="_top-stories">
+                        <span>
+                            <span>Top Stories</span> :
+                            <a class="_top-stories-1" href="/brands"></a>
+                        </span>
+                    </div>
+                    <div>
+                        <div class="_top -stories-lsts">
+                            <div>
+                                Most searched for on Simiyu Mall:
+                                <!-- -->
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="_top -stories-lsts">
+                            <div>
+                                Mobiles:
+                                <!-- -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col gu12">
+                    <div class="Payment">
+                        <h2 class="_payment-method">PAYMENT METHOD</h2>
+                        <div class="_payment-types">MPesa</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
-    <!-- third party javascript libraries-->
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <!-- external javascript file loading-->
-    <script src="~/js/index.js"></script>
-
-    <!-- cntroll the loading of only necessary files needed-->
-    @RenderSection("Scripts", false)
 
 
 

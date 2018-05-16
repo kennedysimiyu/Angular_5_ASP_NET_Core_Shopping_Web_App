@@ -39,11 +39,20 @@ ul.product-props {
  ul.product-props li {
     list-style-type: none;
     }
+
+.site-content {
+    margin-top: 100px;
+}
+
+#product-test {
+    margin-top: 100px;
+}
+
 .product-info {
     border: 1px solid grey;
     display: inline-block;
-    padding: 8px 2px;
-    margin: 2px;
+    padding: 16px 4px;
+    margin-top: 100px;
     width: 450px;
     border-radius: 5px;
 }
